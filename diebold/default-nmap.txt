@@ -1,0 +1,24 @@
+# Nmap 7.70 scan initiated Sun Oct 20 15:20:41 2019 as: nmap -sT -p- -vv -A -Pn -n -T5 -oN nmap.txt -oX nmap.xml 169.254.177.27
+Nmap scan report for 169.254.177.27
+Host is up, received arp-response (0.0043s latency).
+All 65535 scanned ports on 169.254.177.27 are closed because of 65535 conn-refused
+MAC Address: 00:E0:98:0A:0F:0A (AboCom)
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.70%E=4%D=10/20%OT=%CT=1%CU=44337%PV=Y%DS=1%DC=D%G=N%M=00E098%TM=5DACDDCF%P=x86_64-unknown-linux-gnu)
+SEQ(CI=I%II=I)
+T5(R=Y%DF=N%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=N%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=N%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+U1(R=Y%DF=N%T=80%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)
+IE(R=Y%DFI=S%T=80%CD=Z)
+
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.28 ms 169.254.177.27
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct 20 15:21:03 2019 -- 1 IP address (1 host up) scanned in 22.30 seconds
