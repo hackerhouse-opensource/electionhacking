@@ -1,0 +1,137 @@
+ViewBin... ../extracted/nk.bin 
+Image Start = 0x84100000, length = 0x0068B2E4
+		Start address = 0x84101000
+Checking record #32 for potential TOC (ROMOFFSET = 0x00000000)
+Found pTOC  = 0x8478a760
+ROMOFFSET = 0x00000000
+
+ROMHDR ----------------------------------------
+    DLL First           : 0x01F601F6  
+    DLL Last            : 0x02000000  
+    Physical First      : 0x84100000  
+    Physical Last       : 0x8478B2E4  
+    RAM Start           : 0x84790000  
+    RAM Free            : 0x847A8000  
+    RAM End             : 0x88000000  
+    Kernel flags        : 0x00000002  
+    Prof Symbol Offset  : 0x00000000  
+    Num Copy Entries    :          1    
+    Copy Entries Offset : 0x8478B2D4  
+    Num Modules         :         68    
+    Num Files           :         24    
+    MiscFlags           : 0x00000000  
+    CPU                 :     0x01c2 (Thumb)
+    Extensions          : 0x84102F9C
+
+ROMHDR Extensions -----------------------------
+    PID[0] = 0x00000000
+    PID[1] = 0x00000000
+    PID[2] = 0x00000000
+    PID[3] = 0x00000000
+    PID[4] = 0x00000000
+    PID[5] = 0x00000000
+    PID[6] = 0x00000000
+    PID[7] = 0x00000000
+    PID[8] = 0x00000000
+    PID[9] = 0x00000000
+    Next: 00000000
+
+COPY Sections ---------------------------------
+    Src: 0x842C2C50   Dest: 0x84796000   CLen: 0x374      DLen: 0x11680 
+
+MODULES ---------------------------------------
+     6/24/2009  23:46:13      275456  nk.exe 
+     6/24/2009  23:46:45      606208  coredll.dll 
+     6/24/2009  23:46:45      198656  filesys.exe 
+     6/24/2009  23:46:45      704512  gwes.exe 
+     6/24/2009  23:42:38       26624  device.exe 
+     6/24/2009  23:42:59        5632  regenum.dll 
+     6/24/2009  23:42:37        8192  pmstubs.dll 
+     6/24/2009  23:43:14       64512  fatfsd.dll 
+     6/24/2009  23:43:15       24064  fatutil.dll 
+     6/24/2009  23:43:01        6144  toolhelp.dll 
+     6/24/2009  23:46:46      321024  commctrl.dll 
+     6/24/2009  23:46:45       65024  commdlg.dll 
+     6/24/2009  23:46:45       73216  msim.dll 
+     6/24/2009  23:46:45      108544  connmc.exe 
+     6/24/2009  23:46:45       33280  rnaapp.exe 
+     6/24/2009  23:46:45       39424  termctrl.dll 
+     6/24/2009  23:43:10        8704  prnport.dll 
+     6/24/2009  23:46:45        4096  prnerr.dll 
+     6/24/2009  23:43:13       17920  atadisk.dll 
+     6/24/2009  23:43:14       52224  fsdmgr.dll 
+     6/24/2009  23:43:15       17408  mspart.dll 
+     6/24/2009  23:46:45       54272  waveapi.dll 
+     6/24/2009  23:43:15       26112  audevman.dll 
+     6/24/2009  23:42:40        5632  ceddk.dll 
+     6/24/2009  23:46:45      166400  netui.dll 
+     6/24/2009  23:43:06        8192  ethman.dll 
+     6/24/2009  23:43:02      123904  ppp.dll 
+     6/24/2009  23:43:03       14848  asyncmac.dll 
+     6/24/2009  23:43:03       45568  pppoe.dll 
+     6/24/2009  23:42:47        9728  cxport.dll 
+     6/24/2009  23:42:51       56320  iphlpapi.dll 
+     6/24/2009  23:42:49        5632  winsock.dll 
+     6/24/2009  23:42:48       32256  ws2.dll 
+     6/24/2009  23:42:49        5632  ws2instl.dll 
+     6/24/2009  23:42:49        9216  wspm.dll 
+     6/24/2009  23:42:50       10240  nspm.dll 
+     6/24/2009  23:43:12       30208  ssllsp.dll 
+     6/24/2009  23:43:10       14848  secur32.dll 
+     6/24/2009  23:43:12      134656  schannel.dll 
+     6/24/2009  23:42:50       81920  afd.dll 
+     6/24/2009  23:42:52      129536  ndis.dll 
+     6/24/2009  23:43:09       17408  ndisuio.dll 
+     6/24/2009  23:43:10        5632  ndispwr.dll 
+     6/24/2009  23:43:04        6656  autoras.dll 
+     6/24/2009  23:43:08       20992  ne2000.dll 
+     6/24/2009  23:43:06       25088  dhcp.dll 
+     6/24/2009  23:42:53      317440  tcpstk.dll 
+     6/24/2009  23:46:45       64512  tapi.dll 
+     6/24/2009  23:46:45       40448  unimodem.dll 
+     6/24/2009  23:46:45      263168  crypt32.dll 
+     6/24/2009  23:43:11       42496  msasn1.dll 
+     6/24/2009  23:43:00       27648  serial.dll 
+     6/24/2009  23:42:57        6656  mmtimer.dll 
+     6/24/2009  23:46:19      167936  ddi_mq200.dll 
+     6/24/2009  23:42:56        6144  pmddi.dll 
+     6/24/2009  23:46:46       97280  asform.dll 
+     6/24/2009  23:46:46      328192  ceshell.dll 
+     6/24/2009  23:46:12      123392  psmfsd.dll 
+     6/24/2009  23:46:07       19968  wavedev.dll 
+     6/24/2009  23:46:11       33792  xsc1bd_serial.dll 
+     6/24/2009  23:46:21       11264  touch.dll 
+     6/24/2009  23:46:07       71168  ddi_vgx.dll 
+     6/24/2009  23:46:46       47616  pcmcia.dll 
+     6/24/2009  23:46:25        5632  osaa.dll 
+     6/24/2009  23:46:07       10752  taskman.exe 
+     6/24/2009  23:46:07        6144  dst.exe 
+     6/24/2009  23:46:09      563200  avinstaller.exe 
+     6/24/2009  23:46:08        3584  elova.exe 
+
+FILES ----------------------------------------
+      6/24/2009  23:43:20  C_R_       2424       7946                ceconfig.h (ROM 0x844E04F4)
+      6/24/2009  23:46:44  _HRS          0     210966                 wince.nls (ROM 0x846696AC)
+      6/24/2009  23:46:45  CHRS       3321      13350               initobj.dat (ROM 0x84425300)
+      6/24/2009  23:46:44  CHRS      22166      74206               default.fdf (ROM 0x8469CEC4)
+      6/24/2009  23:46:45  CHRS       2101       5299                initdb.ini (ROM 0x84386778)
+      6/07/2002  16:00:00  CHRS        106        134                 close.2bp (ROM 0x844E0E6C)
+      6/07/2002  16:00:00  CHRS         99        134                    ok.2bp (ROM 0x844E0ED8)
+      6/07/2002  16:00:00  CHRS        738       1030                 stdsm.2bp (ROM 0x8463B4E8)
+      6/07/2002  16:00:00  CHRS        562        838                viewsm.2bp (ROM 0x8463B7CC)
+      6/07/2002  16:00:00  CHRS      54880      89600                rsaenh.dll (ROM 0x846A255C)
+      6/07/2002  16:00:00  _HRS          0     184976                 times.ttf (ROM 0x846AFBBC)
+      6/07/2002  16:00:00  _HRS          0     117028                arialk.ttf (ROM 0x846DCE4C)
+      6/07/2002  16:00:00  _HRS          0     153720                 arial.ttf (ROM 0x846F9770)
+      6/07/2002  16:00:00  _HRS          0     162460                  cour.ttf (ROM 0x8471EFE8)
+      6/07/2002  16:00:00  _HRS          0     123980                tahoma.ttf (ROM 0x84746A84)
+      6/07/2002  16:00:00  CHRS        506        630               copyrts.txt (ROM 0x8463BA00)
+      6/07/2002  16:00:00  C_RS       2580       3116              asterisk.wav (ROM 0x843484B8)
+      6/07/2002  16:00:00  __RS          0       2970              critical.wav (ROM 0x8458E414)
+      6/07/2002  16:00:00  C_RS       1825       2682               default.wav (ROM 0x842AC4B0)
+      6/07/2002  16:00:00  C_RS       5268       9204                exclam.wav (ROM 0x84764ED0)
+      6/07/2002  16:00:00  C_RS       8183       8508               startup.wav (ROM 0x84766364)
+      6/22/2009  21:13:41  C_RS       6090      13878             wallpaper.bmp (ROM 0x8476835C)
+      6/22/2009  21:13:48  __R_          0        460               install.pem (ROM 0x8463BBFC)
+      6/22/2009  21:13:48  _HRS          0     134200                arialn.ttf (ROM 0x84769B28)
+Done.
