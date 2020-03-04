@@ -14,6 +14,16 @@ size of around 32mb regardless of what size you put. mkfs.vfat will work to form
 much better to let WinCE format the disk for you, providing you set the file header up it will do that
 on initial boot.
 
+An RSA private key was extracted from the ROM, using the name "ballotstation.pem", it made use of a 
+hardcoded password inside of BalletStation.exe, the certificate password is shown here:
+
+        001c02d8 62 00 61        unicode    u"ballotstation.pem"
+                 00 6c 00 
+                 6c 00 6f 
+        001c02fc 75 00 68        unicode    u"uhn#8xgY!kY:'abN"
+                 00 6e 00 
+                 23 00 38 
+
 Format a W95 FAT16 (LBA) compactflash or similar storage device accessible via PCMCIA. Copy the cf_card
 folder contents to the compactflash disk. The following utilities are included:
 
