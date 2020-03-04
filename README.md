@@ -14,3 +14,18 @@ size of around 32mb regardless of what size you put. mkfs.vfat will work to form
 much better to let WinCE format the disk for you, providing you set the file header up it will do that
 on initial boot.
 
+Format a W95 FAT16 (LBA) compactflash or similar storage device accessible via PCMCIA. Copy the cf_card
+folder contents to the compactflash disk. The following utilities are included:
+
+* CEProcessV.exe    - process manager
+* Doom.exe          - doom (crashes natively, use over RDP)
+* FreqTune.exe      - frequency tuner test app
+* TascalFiler.exe   - file manager
+* TascalRegEdit.exe - registry editor
+* TaskMgrARM.exe    - process manager
+* cb64CE.exe        - commodore64 emulator
+* invaders.exe      - space invaders 
+* mstsc.exe         - rdp client
+* nc.exe            - netcat
+* nesCE.exe         - NES emulator
+* ramfiles.exe      - ram filesystem
