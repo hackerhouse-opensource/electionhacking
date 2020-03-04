@@ -9,3 +9,8 @@ permenant.
 
 For more details see https://hacker.house/lab/hacking-elections-diebold-accuvote-tsx-runs-space-invaders/
 
+WARNING: When using a CompactFlash card it must be formated with FAT16 (LBA) and can only have a maximum
+size of around 32mb regardless of what size you put. mkfs.vfat will work to format the file system but its
+much better to let WinCE format the disk for you, providing you set the file header up it will do that
+on initial boot.
+
