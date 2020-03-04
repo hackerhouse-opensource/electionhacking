@@ -1,0 +1,31 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<H3>TascalFiler</H3>
+<P>
+
+<H4>Keyboard shortcut</H4>
+<TABLE>
+<TR><TD>LEFT </TD><TD>Move focus left</TD></TR>
+<TR><TD>RIGHT</TD><TD>Move focus right</TD></TR>
+<TR><TD>UP   </TD><TD>Select upper item</TD></TR>
+<TR><TD>DOWN </TD><TD>Select lower item</TD></TR>
+</TABLE>
+<P>
+
+<H4>Button operation</H4>
+<TABLE>
+<TR><TD>CTRL-O</TD><TD>Open</TD></TR>
+<TR><TD>CTRL-R</TD><TD>Refresh</TD></TR>
+<TR><TD>CTRL-N</TD><TD>Rename file</TD></TR>
+<TR><TD>CTRL-C</TD><TD>Copy file</TD></TR>
+<TR><TD>CTRL-M</TD><TD>Move file</TD></TR>
+<TR><TD>CTRL-P</TD><TD>Property of file</TD></TR>
+<TR><TD>CTRL-B</TD><TD>Select directory</TD></TR>
+<TR><TD>CTRL-U</TD><TD>Up directory</TD></TR>
+</TABLE>
+<P>
+
+</BODY>
+</HTML>
