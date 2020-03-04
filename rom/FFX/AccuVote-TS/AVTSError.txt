@@ -1,0 +1,1 @@
+03/02/2020 22:27:34 - Failed to create directory \Storage Card\Election Data\

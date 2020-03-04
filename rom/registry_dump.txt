@@ -1,0 +1,2134 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT]
+
+[HKEY_CLASSES_ROOT\.bat]
+@="cmdfile"
+
+[HKEY_CLASSES_ROOT\.cmd]
+@="cmdfile"
+
+[HKEY_CLASSES_ROOT\cmdfile]
+@="Batch File"
+
+[HKEY_CLASSES_ROOT\cmdfile\DefaultIcon]
+@="\\Windows\\cmd.exe"
+
+[HKEY_CLASSES_ROOT\cmdfile\Shell]
+
+[HKEY_CLASSES_ROOT\cmdfile\Shell\Open]
+
+[HKEY_CLASSES_ROOT\cmdfile\Shell\Open\Command]
+@="\\Windows\\cmd.exe /c %1"
+
+[HKEY_CLASSES_ROOT\CLSID]
+
+[HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}]
+@="Keyboard"
+"KBMode"=dword:00000005
+
+[HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}\InprocServer32]
+@="\\windows\\msim.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}\IsSIPInputMethod]
+@="1"
+
+[HKEY_CLASSES_ROOT\CLSID\{42429667-ae04-11d0-a4f8-00aa00a749b9}\DefaultIcon]
+@="\\windows\\msim.dll,0"
+
+[HKEY_CLASSES_ROOT\CLSID\{A523DFC7-1A7E-4af6-991A-510E75847828}]
+@="LargeKB"
+"KBMode"=dword:00000000
+
+[HKEY_CLASSES_ROOT\CLSID\{A523DFC7-1A7E-4af6-991A-510E75847828}\InprocServer32]
+@="LargeKB.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{A523DFC7-1A7E-4af6-991A-510E75847828}\IsSIPInputMethod]
+@="1"
+
+[HKEY_CLASSES_ROOT\CLSID\{A523DFC7-1A7E-4af6-991A-510E75847828}\DefaultIcon]
+@="largekb.dll,0"
+
+[HKEY_CLASSES_ROOT\CLSID\{2ECBC943-FF44-11cf-B8A5-A8AE00C10000}]
+@="ASForm"
+
+[HKEY_CLASSES_ROOT\CLSID\{2ECBC943-FF44-11cf-B8A5-A8AE00C10000}\ProgId]
+@="ASForm"
+
+[HKEY_CLASSES_ROOT\CLSID\{2ECBC943-FF44-11cf-B8A5-A8AE00C10000}\InprocServer32]
+@="asform.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{2ECBC943-FF44-11cf-B8A5-A8AE00C10000}\Control]
+@="True"
+
+[HKEY_CLASSES_ROOT\CLSID\{2ECBC943-FF44-11cf-B8A5-A8AE00C10000}\Version]
+@="1.0"
+
+[HKEY_CLASSES_ROOT\CLSID\{2ECBC943-FF44-11cf-B8A5-A8AE00C10000}\TypeLib]
+@="{2ECBC940-FF44-11cf-B8A5-A8AE00C10000}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2ECBC943-FF44-11cf-B8A5-A8AE00C10000}\DefaultIcon]
+@="asform.dll,0"
+
+[HKEY_CLASSES_ROOT\CLSID\{2ECBC943-FF44-11cf-B8A5-A8AE00C10000}\MiscStatus]
+@="385"
+
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}]
+@="CEShell"
+
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\ProgId]
+@="CEShell"
+
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\InprocServer32]
+@="ceshell.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\Control]
+@="True"
+
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\Version]
+@="1.0"
+
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\TypeLib]
+@="{DAA285F0-94C0-11D0-AD14-0080C73A307B}"
+
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\DefaultIcon]
+@="ceshell.dll,0"
+
+[HKEY_CLASSES_ROOT\CLSID\{DAA285FE-94C0-11D0-AD14-0080C73A307B}\MiscStatus]
+@="131473"
+
+[HKEY_CLASSES_ROOT\TypeLib]
+
+[HKEY_CLASSES_ROOT\TypeLib\{00020430-0000-0000-C000-000000000046}]
+
+[HKEY_CLASSES_ROOT\TypeLib\{00020430-0000-0000-C000-000000000046}\2.0]
+
+[HKEY_CLASSES_ROOT\TypeLib\{00020430-0000-0000-C000-000000000046}\2.0\0]
+@="oleaut32.dll"
+
+[HKEY_CLASSES_ROOT\TypeLib\{2ECBC940-FF44-11cf-B8A5-A8AE00C10000}]
+
+[HKEY_CLASSES_ROOT\TypeLib\{2ECBC940-FF44-11cf-B8A5-A8AE00C10000}\1.0]
+@="ASForm Module"
+
+[HKEY_CLASSES_ROOT\TypeLib\{2ECBC940-FF44-11cf-B8A5-A8AE00C10000}\1.0\0]
+@="asform.dll"
+
+[HKEY_CLASSES_ROOT\TypeLib\{2ECBC940-FF44-11cf-B8A5-A8AE00C10000}\1.0\FLAGS]
+@="2"
+
+[HKEY_CLASSES_ROOT\TypeLib\{2ECBC940-FF44-11cf-B8A5-A8AE00C10000}\1.0\HELPDIR]
+@="\\Windows"
+
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}]
+
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}\1.0]
+@="CEShell Module"
+
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}\1.0\0]
+@="ceshell.dll"
+
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}\1.0\FLAGS]
+@="2"
+
+[HKEY_CLASSES_ROOT\TypeLib\{DAA285F0-94C0-11D0-AD14-0080C73A307B}\1.0\HELPDIR]
+@="\\Windows"
+
+[HKEY_CLASSES_ROOT\{00021400-0000-0000-C000-000000000046}]
+"DisplayName"="Desktop"
+
+[HKEY_CLASSES_ROOT\{000214A1-0000-0000-C000-000000000046}]
+"DisplayName"="Recycle Bin"
+"DefaultIcon"="\\Windows\\ceshell.dll,-1207"
+"InprocServer"="ceshell.dll"
+
+[HKEY_CLASSES_ROOT\{000214A0-0000-0000-C000-000000000046}]
+"DisplayName"="My Computer"
+"DefaultIcon"="\\Windows\\ceshell.dll,-1204"
+"InprocServer"="ceshell.dll"
+
+[HKEY_CLASSES_ROOT\{000214A4-0000-0000-C000-000000000046}]
+"DisplayName"="Databases"
+"DefaultIcon"="\\Windows\\ceshell.dll,-1232"
+"InprocServer"="ceshell.dll"
+
+[HKEY_CLASSES_ROOT\.exe]
+@="exefile"
+
+[HKEY_CLASSES_ROOT\exefile]
+@="Application"
+
+[HKEY_CLASSES_ROOT\exefile\DefaultIcon]
+@="%1"
+
+[HKEY_CLASSES_ROOT\exefile\Shell]
+
+[HKEY_CLASSES_ROOT\exefile\Shell\Open]
+
+[HKEY_CLASSES_ROOT\exefile\Shell\Open\Command]
+@="\"%1\" %*"
+
+[HKEY_CLASSES_ROOT\.dll]
+@="dllfile"
+
+[HKEY_CLASSES_ROOT\dllfile]
+@="Application Extension"
+
+[HKEY_CLASSES_ROOT\dllfile\DefaultIcon]
+@="\\Windows\\ceshell.dll,-1220"
+
+[HKEY_CLASSES_ROOT\.ttf]
+@="ttffile"
+
+[HKEY_CLASSES_ROOT\ttffile]
+@="TrueType Font file"
+
+[HKEY_CLASSES_ROOT\ttffile\DefaultIcon]
+@="\\Windows\\ceshell.dll,-1221"
+
+[HKEY_CLASSES_ROOT\.cpl]
+@="cplfile"
+
+[HKEY_CLASSES_ROOT\cplfile]
+@="Control Panel extension"
+
+[HKEY_CLASSES_ROOT\cplfile\DefaultIcon]
+@="\\Windows\\ceshell.dll,-1220"
+
+[HKEY_CLASSES_ROOT\cplfile\Shell]
+
+[HKEY_CLASSES_ROOT\cplfile\Shell\Open]
+
+[HKEY_CLASSES_ROOT\cplfile\Shell\Open\Command]
+@="\\Windows\\ctlpnl.exe %1"
+
+[HKEY_CLASSES_ROOT\.wav]
+@="wavfile"
+
+[HKEY_CLASSES_ROOT\wavfile]
+@="Wave Sound"
+
+[HKEY_CLASSES_ROOT\wavfile\DefaultIcon]
+@="\\Windows\\ceshell.dll,-1224"
+
+[HKEY_CLASSES_ROOT\.cab]
+@="cabfile"
+
+[HKEY_CLASSES_ROOT\cabfile]
+@="CAB File"
+
+[HKEY_CLASSES_ROOT\cabfile\DefaultIcon]
+@="\\Windows\\wceload.exe,-101"
+
+[HKEY_CLASSES_ROOT\cabfile\Shell]
+
+[HKEY_CLASSES_ROOT\cabfile\Shell\Open]
+
+[HKEY_CLASSES_ROOT\cabfile\Shell\Open\Command]
+@="\\Windows\\wceload.exe \"%1\""
+
+[HKEY_CURRENT_USER]
+
+[HKEY_CURRENT_USER\Comm]
+
+[HKEY_CURRENT_USER\Comm\TermForce]
+
+[HKEY_CURRENT_USER\ControlPanel]
+
+[HKEY_CURRENT_USER\ControlPanel\Dial]
+"CurrentLoc"=dword:00000000
+"HighLocID"=dword:00000002
+
+[HKEY_CURRENT_USER\ControlPanel\Dial\Locations]
+"0"=hex(7):\
+  57,00,6f,00,72,00,6b,00,00,00,47,00,00,00,47,00,00,00,47,00,00,00,00,00,20,\
+  00,00,00,31,00,00,00,30,00,00,00,00,00
+"1"=hex(7):\
+  48,00,6f,00,6d,00,65,00,00,00,47,00,00,00,47,00,00,00,47,00,00,00,00,00,20,\
+  00,00,00,31,00,00,00,30,00,00,00,00,00
+
+[HKEY_CURRENT_USER\ControlPanel\Sip]
+"AllowChange"=dword:00000001
+"DragStyle"=dword:00000001
+"DefaultIm"="{A523DFC7-1A7E-4af6-991A-510E75847828}"
+
+[HKEY_CURRENT_USER\ControlPanel\Keybd]
+"InitialDelay"=dword:00000177
+"RepeatRate"=dword:00000008
+
+[HKEY_CURRENT_USER\ControlPanel\Appearance]
+"Current"="Windows Standard"
+
+[HKEY_CURRENT_USER\ControlPanel\Appearance\Schemes]
+"Wheat"=hex:\
+  ff,ff,00,00,f0,f0,d5,00,00,40,1d,00,80,80,00,02,bc,bc,41,02,c4,c4,55,00,ff,\
+  ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,ff,ff,ff,02,c4,c4,55,00,c4,c4,\
+  55,00,ee,ee,d0,02,80,80,00,02,ff,ff,ff,02,c4,c4,55,00,80,80,80,00,8c,8d,8b,\
+  00,00,00,00,02,ff,ff,ff,02,f0,f0,d5,00,00,00,00,00,ff,ff,ff,00,00,00,00,02,\
+  ff,ff,ff,02,c7,c7,61,00,00,00,00,00
+"Marine"=hex:\
+  ff,ff,00,00,d8,f5,eb,00,80,00,00,02,46,46,8c,00,8d,8b,cb,00,a3,e7,cf,00,ff,\
+  ff,ff,02,16,56,40,00,00,00,00,00,00,00,00,02,ff,ff,ff,02,64,d7,ae,00,64,d7,\
+  ae,00,80,80,80,02,70,70,b8,00,ff,ff,ff,02,64,d7,ae,00,80,80,80,00,4f,65,7d,\
+  02,00,00,00,02,d7,d7,d7,00,d8,f5,eb,00,00,00,00,00,ff,ff,ff,00,00,00,00,02,\
+  ff,ff,ff,02,64,d7,ae,00,00,00,00,00
+"Rose"=hex:\
+  ff,ff,00,00,ff,e6,e6,00,80,80,80,02,9f,60,70,02,a0,a0,a4,02,ff,ca,ca,00,ff,\
+  ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,ff,ff,ff,02,ff,97,97,00,ff,97,\
+  97,00,9f,60,70,02,9f,60,70,02,ff,ff,ff,02,ff,97,97,00,7f,7f,7f,00,89,89,89,\
+  00,00,00,00,02,00,00,00,02,ff,e6,e6,00,00,00,00,00,ff,ff,ff,00,00,00,00,02,\
+  ff,ff,ff,02,ff,95,95,00,00,00,00,00
+"Brick"=hex:\
+  ff,ff,00,00,e8,e7,dd,00,9b,00,00,00,80,00,00,00,8d,89,61,00,a2,9d,75,00,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,e1,e0,d2,00,a3,9e,76,00,a3,9e,\
+  76,00,e1,e0,d2,00,8d,89,61,00,ff,ff,ff,00,a3,9e,76,00,80,80,80,00,80,80,80,\
+  00,00,00,00,00,e1,e0,d2,00,e8,e7,dd,00,00,00,00,00,ff,ff,ff,00,80,00,00,00,\
+  e1,e0,d2,00,9f,9b,73,00,00,00,00,00
+"Desert"=hex:\
+  ff,ff,00,00,ea,e6,dd,00,a2,8d,68,00,00,80,80,00,a2,8d,68,00,cc,c2,ad,00,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,00,cc,c2,ad,00,cc,c2,\
+  ad,00,a2,8d,68,00,00,80,80,00,ff,ff,ff,00,cc,c2,ad,00,80,80,80,00,a2,8d,68,\
+  00,00,00,00,00,ff,ff,ff,00,ea,e6,dd,00,00,00,00,00,ff,ff,ff,00,00,00,00,00,\
+  ff,ff,ff,00,cc,c2,ad,00,00,00,00,00
+"Eggplant"=hex:\
+  ff,ff,00,00,d5,e7,d3,00,40,00,40,00,4d,00,4d,00,a5,50,8d,00,5b,98,56,00,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,00,5b,98,56,00,5b,98,\
+  56,00,80,80,80,00,37,5c,34,00,ff,ff,ff,00,5b,98,56,00,80,80,80,00,78,52,6d,\
+  00,00,00,00,00,4f,4f,4f,00,a0,c9,9c,00,00,00,00,00,ff,ff,ff,00,80,00,80,00,\
+  ff,ff,ff,00,5b,98,56,00,00,00,00,00
+"High Contrast Black"=hex:\
+  ff,ff,00,00,c0,c0,c0,00,00,00,00,00,80,00,80,00,00,80,00,00,00,00,00,00,00,\
+  00,00,00,ff,ff,ff,00,ff,ff,ff,00,ff,ff,ff,00,ff,ff,ff,00,80,80,80,00,c0,c0,\
+  c0,00,80,80,80,00,ff,ff,ff,00,00,00,00,00,00,00,00,00,80,80,80,00,80,80,80,\
+  00,ff,ff,ff,00,ff,ff,ff,00,c0,c0,c0,00,ff,ff,ff,00,c0,c0,c0,00,ff,ff,ff,00,\
+  00,00,00,00,00,00,00,00,ff,ff,ff,00
+"High Contrast White"=hex:\
+  ff,ff,00,00,ff,ff,ff,00,ff,ff,ff,00,00,00,00,00,ff,ff,ff,00,ff,ff,ff,00,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,00,80,80,80,00,c0,c0,\
+  c0,00,80,80,80,00,00,00,00,00,ff,ff,ff,00,ff,ff,ff,00,80,80,80,00,80,80,80,\
+  00,00,00,00,00,00,00,00,00,c0,c0,c0,00,00,00,00,00,c0,c0,c0,00,00,00,00,00,\
+  ff,ff,ff,00,ff,ff,ff,00,00,00,00,00
+"Lilac"=hex:\
+  ff,ff,00,00,ae,a8,d9,00,00,00,00,00,5a,4e,b1,00,80,80,80,00,ae,a8,d9,00,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,00,ae,a8,d9,00,ae,a8,\
+  d9,00,5a,4e,b1,00,5a,4e,b1,00,ff,ff,ff,00,ae,a8,d9,00,80,80,80,00,69,69,69,\
+  00,00,00,00,00,ff,ff,ff,00,d8,d5,ec,00,00,00,00,00,ff,ff,ff,00,00,00,00,00,\
+  ff,ff,ff,00,ae,a8,d9,00,00,00,00,00
+"Maple"=hex:\
+  ff,ff,00,00,f3,ed,da,00,00,00,00,02,b3,94,37,00,a0,a0,a4,02,e6,d8,ae,02,ff,\
+  ff,ff,02,00,00,00,02,00,00,00,02,00,00,00,02,ff,ff,ff,02,d0,b6,66,00,d0,b6,\
+  66,00,f2,ec,d7,02,a3,87,32,02,00,00,00,02,d0,b6,66,00,80,80,80,00,70,6f,71,\
+  00,00,00,00,02,f2,ec,d7,02,f3,ed,da,00,00,00,00,00,ff,ff,ff,00,00,00,00,02,\
+  ff,ff,ff,02,d2,ba,6f,00,00,00,00,02
+"Spruce"=hex:\
+  ff,ff,00,00,d0,e3,d3,00,2e,58,2e,00,59,97,64,00,7f,7f,7f,00,a2,c8,a9,00,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,00,a2,c8,a9,00,a2,c8,\
+  a9,00,d0,e3,d3,00,59,97,64,00,ff,ff,ff,00,a2,c8,a9,00,80,80,80,00,63,a5,63,\
+  00,00,00,00,00,d0,e3,d3,00,d0,e3,d3,00,00,00,00,00,ff,ff,ff,00,00,00,00,00,\
+  ff,ff,ff,00,a2,c8,a9,00,00,00,00,00
+"Storm"=hex:\
+  ff,ff,00,00,e7,e7,e7,00,00,00,00,00,00,00,2f,00,80,80,80,00,c0,c0,c0,00,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,00,a0,a0,a0,00,a0,a0,\
+  a0,00,80,80,80,00,00,00,66,00,ff,ff,ff,00,a0,a0,a0,00,80,80,80,00,80,80,80,\
+  00,00,00,00,00,24,24,24,00,e7,e7,e7,00,00,00,00,00,ff,ff,ff,00,80,00,80,00,\
+  ff,ff,ff,00,a0,a0,a0,00,00,00,00,00
+"Windows Standard"=hex:\
+  ff,ff,00,00,e0,e0,e0,00,3a,6e,a5,00,00,00,80,00,80,80,80,00,c0,c0,c0,00,ff,\
+  ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,ff,ff,ff,00,c0,c0,c0,00,c0,c0,\
+  c0,00,80,80,80,00,00,00,80,00,ff,ff,ff,00,c0,c0,c0,00,80,80,80,00,80,80,80,\
+  00,00,00,00,00,c0,c0,c0,00,ff,ff,ff,00,00,00,00,00,df,df,df,00,00,00,00,00,\
+  ff,ff,ff,00,c0,c0,c0,00,00,00,00,00
+
+[HKEY_CURRENT_USER\ControlPanel\Volume]
+"Key"=dword:00010002
+"Mute"=dword:00000007
+"Volume"=dword:99999999
+"Screen"=dword:00000000
+
+[HKEY_CURRENT_USER\ControlPanel\BackLight]
+"BatteryTimeout"=dword:0000003c
+"ACTimeout"=dword:00000258
+
+[HKEY_CURRENT_USER\ControlPanel\Comm]
+"AutoCnct"=dword:00000001
+"Cnct"="`Desktop @ 19200`"
+
+[HKEY_CURRENT_USER\ControlPanel\Desktop]
+"wallpaper"="\\Windows\\wallpaper.bmp"
+
+[HKEY_CURRENT_USER\Start]
+"dummy"=dword:00000001
+
+[HKEY_LOCAL_MACHINE]
+
+[HKEY_LOCAL_MACHINE\Beta 1]
+"TimeBomb"=hex:\
+  02,00,00,00,0d,2b,00,00
+
+[HKEY_LOCAL_MACHINE\Time]
+"TimeZoneInformation"=hex:\
+  2c,01,00,00,55,00,53,00,20,00,45,00,61,00,73,00,74,00,65,00,72,00,6e,00,20,\
+  00,53,00,74,00,61,00,6e,00,64,00,61,00,72,00,64,00,20,00,54,00,69,00,6d,00,\
+  65,00,00,00,2e,0c,02,00,00,00,f0,7b,f8,03,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,55,00,53,00,20,00,45,00,61,00,73,00,\
+  74,00,65,00,72,00,6e,00,20,00,44,00,61,00,79,00,6c,00,69,00,67,00,68,00,74,\
+  00,20,00,54,00,69,00,6d,00,65,00,00,00,00,00,08,00,00,00,10,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,c4,ff,ff,ff
+
+[HKEY_LOCAL_MACHINE\TAPI]
+
+[HKEY_LOCAL_MACHINE\TAPI\TSP]
+"PPID"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\TAPI\TSP\unimodem.dll]
+"PPID"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\nls]
+"DefaultLCID"=dword:00000409
+"ExtraCurrency"=dword:000020ac
+
+[HKEY_LOCAL_MACHINE\nls\overrides]
+
+[HKEY_LOCAL_MACHINE\init]
+"Launch20"="device.exe"
+"Launch30"="gwes.exe"
+"Depend30"=hex:\
+  14,00
+"Launch50"="taskman.exe"
+"Depend50"=hex:\
+  14,00,1e,00
+
+[HKEY_LOCAL_MACHINE\init\BootVars]
+
+[HKEY_LOCAL_MACHINE\Drivers]
+"RootKey"="Drivers\\BuiltIn"
+
+[HKEY_LOCAL_MACHINE\Drivers\Active]
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\19]
+"Hnd"=dword:000311b0
+"Name"="NDS1:"
+"Key"="Drivers\\PCMCIA\\NE2000"
+"Sckt"=dword:00720000
+"PnpId"="Network_Everywhere-Ethernet_10BaseT_PC_Card-274D"
+"RegenumParms"=hex(7):\
+  53,00,63,00,6b,00,74,00,00,00,50,00,6e,00,70,00,49,00,64,00,00,00,52,00,65,\
+  00,67,00,65,00,6e,00,75,00,6d,00,50,00,61,00,72,00,6d,00,73,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\18]
+"Hnd"=dword:0005a3a0
+"Name"="ETM1:"
+"Key"="Drivers\\BuiltIn\\Ethman"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\17]
+"Hnd"=dword:00059d10
+"Name"="NPW1:"
+"Key"="Drivers\\BuiltIn\\NdisPower"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\16]
+"Hnd"=dword:00056b80
+"Name"="COM5:"
+"Key"="Drivers\\BuiltIn\\Serial5"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\15]
+"Hnd"=dword:00054230
+"Name"="ARS1:"
+"Key"="Drivers\\BuiltIn\\autoras"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\14]
+"Hnd"=dword:00054000
+"Name"="COM4:"
+"Key"="Drivers\\BuiltIn\\Serial4"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\13]
+"Hnd"=dword:00053e60
+"Name"="UIO1:"
+"Key"="Drivers\\BuiltIn\\NDISUIO"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\12]
+"Hnd"=dword:00053c30
+"Name"="COM3:"
+"Key"="Drivers\\BuiltIn\\Serial3"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\11]
+"Hnd"=dword:00036e70
+"Name"="COM2:"
+"Key"="Drivers\\BuiltIn\\Serial2"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\10]
+"Hnd"=dword:00036db0
+"Name"="DDI1:"
+"Key"="Drivers\\BuiltIn\\PMDDI"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\08]
+"Hnd"=dword:00032760
+"Name"="WAM1:"
+"Key"="Drivers\\BuiltIn\\WAPIMAN"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\07]
+"Hnd"=dword:000326a0
+"Key"="Drivers\\BuiltIn\\TAPI"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\06]
+"Hnd"=dword:00031ab0
+"Name"="DSK1:"
+"Key"="Drivers\\PCMCIA\\ATADisk"
+"Sckt"=dword:00720001
+"PnpId"="SanDisk-SDP-2AE5"
+"RegenumParms"=hex(7):\
+  53,00,63,00,6b,00,74,00,00,00,50,00,6e,00,70,00,49,00,64,00,00,00,52,00,65,\
+  00,67,00,65,00,6e,00,75,00,6d,00,50,00,61,00,72,00,6d,00,73,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\05]
+"Hnd"=dword:00030f60
+"Name"="NDS0:"
+"Key"="Drivers\\BuiltIn\\NDIS"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\04]
+"Hnd"=dword:00030cc0
+"Key"="Drivers\\BuiltIn\\PCMCIA"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\03]
+"Hnd"=dword:00030280
+"Name"="COM1:"
+"Key"="Drivers\\BuiltIn\\Serial"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\02]
+"Hnd"=dword:000301c0
+"Name"="WAV1:"
+"Key"="Drivers\\BuiltIn\\WaveDev"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Active\01]
+"Hnd"=dword:000300f0
+"Key"="Drivers\\BuiltIn"
+"ClientInfo"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn]
+"Dll"="RegEnum.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\NDIS]
+"Dll"="NDIS.Dll"
+"Prefix"="NDS"
+"Index"=dword:00000000
+"Order"=dword:00000001
+"IClass"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\autoras]
+"Prefix"="ARS"
+"Dll"="autoras.dll"
+"Index"=dword:00000001
+"Order"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\NDISUIO]
+"Prefix"="UIO"
+"Dll"="ndisuio.dll"
+"Index"=dword:00000001
+"Order"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\NdisPower]
+"Prefix"="NPW"
+"Dll"="NDISPWR.dll"
+"Index"=dword:00000001
+"Order"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Ethman]
+"Prefix"="ETM"
+"Dll"="ethman.dll"
+"Index"=dword:00000001
+"Order"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\AFD]
+"Dll"="AFD.Dll"
+"Order"=dword:00000002
+"Keep"=dword:00000001
+"Entry"="AfdInitialize"
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\TAPI]
+"Dll"="TAPI.dll"
+"Order"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\WAPIMAN]
+"Prefix"="WAM"
+"Dll"="waveapi.dll"
+"Index"=dword:00000001
+"Order"=dword:00000001
+"Priority256"=dword:00000096
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\SIP]
+"Prefix"="SIP"
+"Dll"="softkb.DLL"
+"Order"=dword:00000001
+"Index"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\PMDDI]
+"Prefix"="DDI"
+"Dll"="pmddi.dll"
+"Order"=dword:00000001
+"Interface"="{A32942B7-920C-486b-B0E6-92A702A99B35}"
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\WaveDev]
+"Prefix"="WAV"
+"Dll"="wavedev.dll"
+"Index"=dword:00000001
+"Order"=dword:00000000
+"Priority256"=dword:00000095
+"ModemVolume"=dword:00000008
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\FlshDrv]
+"FolderName"="FFX"
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial]
+"Dll"="xsc1bd_serial.Dll"
+"IoBase"=dword:bc100000
+"Irq"=dword:00000000
+"IoLen"=dword:00000024
+"DeviceArrayIndex"=dword:00000000
+"Prefix"="COM"
+"Order"=dword:00000000
+"FriendlyName"="Modem on COM1:"
+"DevConfig"=hex:\
+  10,00,00,00,78,00,00,00,10,01,00,00,00,4b,00,00,00,00,08,00,00,00,00,00,00
+"DeviceType"=dword:00000001
+"Tsp"="Unimodem.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial2]
+"Dll"="xsc1bd_serial.Dll"
+"IoBase"=dword:bc700000
+"Irq"=dword:00000000
+"IoLen"=dword:00000024
+"DeviceArrayIndex"=dword:00000002
+"Prefix"="COM"
+"Order"=dword:00000001
+"FriendlyName"="Serial Touch Driver uses COM2:"
+"DevConfig"=hex:\
+  10,00,00,00,05,00,00,00,00,01,00,00,00,4b,00,00,00,00,08,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial3]
+"Dll"="xsc1bd_serial.Dll"
+"IoBase"=dword:b0400000
+"Irq"=dword:00000000
+"IoLen"=dword:00000024
+"DeviceArrayIndex"=dword:00000003
+"Prefix"="COM"
+"Order"=dword:00000002
+"FriendlyName"="Internal Printer on COM3:"
+"DevConfig"=hex:\
+  10,00,00,00,05,00,00,00,10,01,00,00,00,4b,00,00,00,00,08,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial4]
+"Dll"="xsc1bd_serial.Dll"
+"IoBase"=dword:b0800000
+"Irq"=dword:00000000
+"IoLen"=dword:00000024
+"DeviceArrayIndex"=dword:00000004
+"Prefix"="COM"
+"Order"=dword:00000003
+"FriendlyName"="Smart Card Reader on COM4:"
+"DevConfig"=hex:\
+  10,00,00,00,05,00,00,00,10,01,00,00,00,4b,00,00,00,00,08,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Serial5]
+"Dll"="xsc1bd_serial.Dll"
+"IoBase"=dword:bc200000
+"Irq"=dword:00000000
+"IoLen"=dword:00000024
+"DeviceArrayIndex"=dword:00000005
+"Prefix"="COM"
+"Order"=dword:00000004
+"FriendlyName"="Serial Cable on COM5:"
+"DevConfig"=hex:\
+  10,00,00,00,05,00,00,00,00,01,00,00,00,4b,00,00,00,00,08,00,00,00,00,00,00
+"DeviceType"=dword:00000000
+"Tsp"="Unimodem.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\PCMCIA]
+"Dll"="PCMCIA.dll"
+"Order"=dword:00000000
+"IClass"=hex(7):\
+  7b,00,36,00,42,00,45,00,41,00,42,00,30,00,38,00,41,00,2d,00,38,00,39,00,31,\
+  00,34,00,2d,00,34,00,32,00,66,00,64,00,2d,00,42,00,33,00,33,00,46,00,2d,00,\
+  36,00,31,00,39,00,36,00,38,00,42,00,39,00,41,00,41,00,42,00,33,00,32,00,7d,\
+  00,3d,00,50,00,43,00,4d,00,43,00,49,00,41,00,20,00,43,00,61,00,72,00,64,00,\
+  20,00,53,00,65,00,72,00,76,00,69,00,63,00,65,00,73,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Drivers\Unimodem]
+"DevConfig"=hex:\
+  10,00,00,00,78,00,00,00,10,01,00,00,00,4b,00,00,00,00,08,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Drivers\Unimodem\Init]
+"1"="AT<cr>"
+"2"="ATE0V1&C1&D2<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\Unimodem\Settings]
+"Prefix"="AT"
+"Terminator"="<cr>"
+"DialPrefix"="D"
+"DialSuffix"=";"
+"Pulse"="P"
+"Tone"="T"
+"Blind_Off"="X4"
+"Blind_On"="X3"
+"CallSetupFailTimeout"="ATS7=<#><cr>"
+"Reset"="ATZ<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA]
+"NoBatteryCheck"=dword:00000001
+"NoUnknownCards"=dword:00000001
+"NoBatteryCheck2"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Modem]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.Dll"
+"ResetDelay"=dword:00000300
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Modem\Unimodem]
+"Tsp"="Unimodem.dll"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Serial]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.Dll"
+"ResetDelay"=dword:00000300
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Serial\Unimodem]
+"Tsp"="Unimodem.dll"
+"DeviceType"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\NTT_DoCoMo-MFCard96F1-A093]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.Dll"
+"ResetDelay"=dword:00000300
+"NoIntrPend"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\NTT_DoCoMo-MFCard96F1-A093\Unimodem]
+"Tsp"="Unimodem.dll"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.Dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Hayes 28.8 + Fax"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Unimodem\Init]
+"3"="AT&F E0 V1 &C1 &D2<cr>"
+"4"="ATW0 S95=0<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Hayes-OPTIMA_288_+_FAX_for_PCMCIA_with_EZ-4FA5\Unimodem\Settings]
+"FlowHard"="AT&K3<cr>"
+"FlowSoft"="AT&K4<cr>"
+"FlowOff"="AT&K0<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ2288-9E81]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.Dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ2288-9E81\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Megahertz 28.8"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ2288-9E81\Unimodem\Init]
+"3"="ATW2B1\\V<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ2288-9E81\Unimodem\Settings]
+"FlowHard"="AT&K3<cr>"
+"FlowSoft"="AT&K4<cr>"
+"FlowOff"="AT&K0<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ3288-26C7]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ3288-26C7\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Megahertz 28.8 Cellular"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ3288-26C7\Unimodem\Init]
+"3"="ATW2B1\\V1<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ3288-26C7\Unimodem\Settings]
+"FlowHard"="AT&K3<cr>"
+"FlowSoft"="AT&K4<cr>"
+"FlowOff"="AT&K0<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-Megahertz_28.8-73E3]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-Megahertz_28.8-73E3\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Megahertz Cruise Card 28.8"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-Megahertz_28.8-73E3\Unimodem\Init]
+"3"="ATW2B1\\V1<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-Megahertz_28.8-73E3\Unimodem\Settings]
+"FlowHard"="AT&K3<cr>"
+"FlowSoft"="AT&K4<cr>"
+"FlowOff"="AT&K0<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ1144-5C3E]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.Dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MEGAHERTZ-XJ1144-5C3E\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Megahertz 14.4"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\USRobotics-PCMCIA_28800_Data/Fax-92A2]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+"ResetDelay"=dword:00000800
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\USRobotics-PCMCIA_28800_Data/Fax-92A2\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Sportster 28.8"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\USRobotics-PCMCIA_28800_Data/Fax-92A2\Unimodem\Init]
+"3"="AT &F1 E0 V1 &C1 &D2 &B1 &A3 S0=0<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\USRobotics-PCMCIA_28800_Data/Fax-92A2\Unimodem\Settings]
+"FlowHard"="AT&K3<cr>"
+"FlowSoft"="AT&K4<cr>"
+"FlowOff"="AT&K0<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-F382]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-F382\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="ProClass 28.8"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-F382\Unimodem\Init]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-F382\Unimodem\Settings]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="ProClass 28.8"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6\Unimodem\Init]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Practical_Peripherals_Inc-PPI_PC288T2EZ_PCMCIA-DAE6\Unimodem\Settings]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Modem_33.6-5347]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Modem_33.6-5347\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Xircom 33.6"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Modem_33.6-5347\Unimodem\Init]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Modem_33.6-5347\Unimodem\Settings]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Socket_Communications_Inc-Serial_Port_Adapter_Revision_B-5E3E]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Socket_Communications_Inc-Serial_Port_Adapter_Revision_B-5E3E\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Socket I/O Serial"
+"DeviceType"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD]
+"Dll"="regenum.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\1]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\1\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Xircom Ether Modem 33.6"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\1\Unimodem\Init]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\1\Unimodem\Settings]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\MULTI]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\MULTI\1]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\MULTI\1\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Xircom Ether Modem 33.6"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\MULTI\1\Unimodem\Init]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Xircom-CreditCard_Ethernet+Modem_33.6-05DD\MULTI\1\Unimodem\Settings]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Motorola-MONTANA_V.34_FAX/MODEM-9E9C]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Motorola Montana 28.8"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Unimodem\Init]
+"3"="ATS7=60M1<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Motorola-MONTANA_V.34_FAX/MODEM-9E9C\Unimodem\Settings]
+"FlowHard"="AT\\Q3<cr>"
+"FlowSoft"="AT\\Q1<cr>"
+"FlowOff"="AT\\Q<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MOTOROLA-POWER_14.4-8980]
+"DeviceArrayIndex"=dword:00000001
+"Prefix"="COM"
+"Dll"="xsc1bd_Serial.dll"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MOTOROLA-POWER_14.4-8980\Unimodem]
+"Tsp"="Unimodem.dll"
+"FriendlyName"="Motorola Power 14.4"
+"DeviceType"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MOTOROLA-POWER_14.4-8980\Unimodem\Init]
+"3"="ATS7=60S19=0M1<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\MOTOROLA-POWER_14.4-8980\Unimodem\Settings]
+"FlowHard"="AT\\Q3<cr>"
+"FlowSoft"="AT\\Q1<cr>"
+"FlowOff"="AT\\Q<cr>"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\ATADisk]
+"Dll"="ATADISK.DLL"
+"Prefix"="DSK"
+"Ioctl"=dword:00000004
+"Profile"="PCMCIA"
+"IClass"=hex(7):\
+  7b,00,41,00,33,00,32,00,39,00,34,00,32,00,42,00,37,00,2d,00,39,00,32,00,30,\
+  00,43,00,2d,00,34,00,38,00,36,00,62,00,2d,00,42,00,30,00,45,00,36,00,2d,00,\
+  39,00,32,00,41,00,37,00,30,00,32,00,41,00,39,00,39,00,42,00,33,00,35,00,7d,\
+  00,00,00,7b,00,41,00,34,00,45,00,37,00,45,00,44,00,44,00,41,00,2d,00,45,00,\
+  35,00,37,00,35,00,2d,00,34,00,32,00,35,00,32,00,2d,00,39,00,44,00,36,00,42,\
+  00,2d,00,34,00,31,00,39,00,35,00,44,00,34,00,38,00,42,00,42,00,38,00,36,00,\
+  35,00,7d,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect]
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\10]
+"Dll"="ATADISK.DLL"
+"Entry"="DetectATADisk"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\50]
+"Dll"="SERIAL.DLL"
+"Entry"="DetectModem"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\60]
+"Dll"="NE2000.DLL"
+"Entry"="DetectNE2000"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\Detect\90]
+"Dll"="osaa.dll"
+"Entry"="DetectOSAA"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\NE2000]
+"Dll"="ndis.dll"
+"Prefix"="NDS"
+"Miniport"="NE2000"
+
+[HKEY_LOCAL_MACHINE\Drivers\PCMCIA\OSAA]
+"Dll"="osaa.dll"
+"Prefix"="OSA"
+"FriendlyName"="Optical Scan Accumulation Adapter"
+
+[HKEY_LOCAL_MACHINE\Drivers\Console]
+"Font"="Courier New"
+"Size"=dword:00000008
+"PaintRow"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Display]
+
+[HKEY_LOCAL_MACHINE\Drivers\Display\MQ200]
+"Rotate"=dword:00000001
+"PPSupport"=dword:00000000
+"PPSupportEnable"=dword:00000000
+"CxScreen"=dword:00000400
+"CyScreen"=dword:00000300
+"BPP"=dword:00000010
+"Freq"=dword:0000003c
+"FB_BASE"=dword:07800000
+"Flag"=dword:0801030d
+"MIU2"=dword:00ea0086
+"MIU3"=dword:6d6aabff
+"MIU5"=dword:00000119
+"DC0"=dword:0ef2082a
+"PLL1Freq"=dword:00530000
+"PWM"=dword:00200000
+"OEMFPPinCtrl"=dword:01000020
+
+[HKEY_LOCAL_MACHINE\Drivers\Display\MQ200\Color]
+"CC"=dword:0000000f
+
+[HKEY_LOCAL_MACHINE\Drivers\Display\MQ200\LCD]
+"Bl"=dword:00000080
+"Ct"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Drivers\Display\SMIVGX]
+"CxPanel"=dword:00000400
+"CyPanel"=dword:00000300
+"Bpp"=dword:00000020
+"DisplayType"=dword:00000001
+"SaveRestore"=dword:00000000
+"SaveSurface"=dword:00000000
+"PowerMonitor"=dword:00000000
+"FB_BASE"=dword:04000000
+"FG_BASE"=dword:07e00000
+"Angle"=dword:0000010e
+"Gamma"=dword:00000000
+"VgxSysIntr"=dword:0000001a
+
+[HKEY_LOCAL_MACHINE\Drivers\Resources]
+
+[HKEY_LOCAL_MACHINE\Drivers\Resources\IRQ]
+"Identifier"=dword:00000001
+"Minimum"=dword:00000001
+"Space"=dword:00000020
+"Ranges"="1-0x20"
+
+[HKEY_LOCAL_MACHINE\Drivers\Resources\IO]
+"Identifier"=dword:00000002
+"Minimum"=dword:00000000
+"Space"=dword:00010000
+"Ranges"="0-0xFFFF"
+
+[HKEY_LOCAL_MACHINE\System]
+
+[HKEY_LOCAL_MACHINE\System\Events]
+"SYSTEM/PowerManagerReady"="Power Manager APIs"
+"SYSTEM/GweApiSetReady"="Event triggered after GWES registers its API sets"
+
+[HKEY_LOCAL_MACHINE\System\StorageManager]
+"Dll"="fsdmgr.dll"
+"PNPUnloadDelay"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\FATFS]
+"FriendlyName"="FAT FileSystem"
+"Dll"="fatfsd.dll"
+"Flags"=dword:00000024
+"Paging"=dword:00000001
+"CacheSize"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\UDFS]
+"FriendlyName"="CDFS/UDFS FileSystem"
+"Dll"="udfs.dll"
+"Paging"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles]
+"AutoMount"=dword:00000001
+"AutoPart"=dword:00000000
+"AutoFormat"=dword:00000000
+"MountFlags"=dword:00000000
+"DefaultFileSystem"="FATFS"
+"PartitionDriver"="mspart.dll"
+"Folder"="Mounted Volume"
+"ActivityEvent"="PowerManager/ActivityTimer/SystemActivity"
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\PCMCIA]
+"Name"="PCMCIA/Compact Flash Device"
+"Folder"="Storage Card"
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\HDProfile]
+"Name"="IDE Hard Disk Drive"
+"Folder"="Hard Disk"
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\HDProfile\FATFS]
+"EnableCacheWarm"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\HDProfile\PartitionTable]
+"07"="NTFS"
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\Profiles\CDProfile]
+"Name"="IDE CDROM/DVD Drive"
+"Folder"="CDROM Drive"
+"DefaultFileSystem"="UDFS"
+"PartitionDriver"=""
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\AutoLoad]
+
+[HKEY_LOCAL_MACHINE\System\StorageManager\AutoLoad\PSM]
+"Dll"="PSMFSD.dll"
+"Paging"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\GDI]
+
+[HKEY_LOCAL_MACHINE\System\GDI\SYSFNT]
+"Nm"="Tahoma"
+"Ht"=dword:fffffff4
+"It"=dword:00000000
+"Wt"=dword:00000190
+"CS"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\GDI\Drivers]
+"MainDisplay"="ddi_vgx.dll"
+"Display"="ddi_vgx.dll"
+
+[HKEY_LOCAL_MACHINE\System\GDI\Monitors]
+"Total Monitors"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\GDI\Rotation]
+"Angle"=dword:0000010e
+
+[HKEY_LOCAL_MACHINE\System\GDI\FontSmoothing]
+
+[HKEY_LOCAL_MACHINE\System\GWE]
+"PORepaint"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\GWE\Menu]
+"BarTMrg"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\System\GWE\Menu\BarFnt]
+"Nm"="Tahoma"
+"Ht"=dword:fffffff4
+"It"=dword:00000000
+"Wt"=dword:000002bc
+"CS"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\GWE\Menu\PopFnt]
+"Nm"="Tahoma"
+"Ht"=dword:fffffff4
+"It"=dword:00000000
+"Wt"=dword:00000190
+"CS"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\GWE\OOMFnt]
+"Nm"="Tahoma"
+"Ht"=dword:fffffff4
+"It"=dword:00000000
+"Wt"=dword:00000190
+"CS"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\System\GWE\Button]
+"FontWeight"=dword:000002bc
+
+[HKEY_LOCAL_MACHINE\System\Hibernate]
+"Bytes"=dword:00020000
+"Pages"=dword:00000028
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet]
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control]
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power]
+"BattPowerOff"=dword:00000000
+"ExtPowerOff"=dword:00000000
+"WakeupPowerOff"=dword:00000000
+"ScreenPowerOff"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Comm]
+"BootCount"=dword:00000079
+
+[HKEY_LOCAL_MACHINE\Comm\AFD]
+"Stacks"=hex(7):\
+  74,00,63,00,70,00,73,00,74,00,6b,00,00,00,74,00,63,00,70,00,69,00,70,00,36,\
+  00,00,00,69,00,72,00,64,00,61,00,73,00,74,00,6b,00,00,00,62,00,74,00,64,00,\
+  00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Comm\Autoras]
+"Dialer"="rnaapp.exe"
+"NoPromptOpt"="-p"
+"RasEntryOpt"="-e"
+
+[HKEY_LOCAL_MACHINE\Comm\WS2]
+
+[HKEY_LOCAL_MACHINE\Comm\WS2\LSP]
+
+[HKEY_LOCAL_MACHINE\Comm\WS2\LSP\SSL]
+"Dll"="ssllsp.dll"
+"Flags"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\NE2000]
+"DisplayName"="NE2000 Compatible Ethernet Driver"
+"Group"="NDIS"
+"ImagePath"="ne2000.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\NE2000\Linkage]
+"Route"=hex(7):\
+  4e,00,45,00,32,00,30,00,30,00,30,00,31,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Comm\NE20001]
+"DisplayName"="NE2000 Compatible Ethernet Driver"
+"Group"="NDIS"
+"ImagePath"="ne2000.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\NE20001\Parms]
+"BusNumber"=dword:00000000
+"BusType"=dword:00000008
+"InterruptNumber"=dword:00000003
+"IoBaseAddress"=dword:00000300
+"Transceiver"=dword:00000003
+"CardType"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\NE20001\Parms\TCPIP]
+"AutoInterval"=dword:0000012c
+"AutoMask"="255.255.0.0"
+"AutoSubnet"="169.254.0.0"
+"AutoIP"="0.0.0.0"
+"AutoSeed"=dword:00000000
+"PrevReqOptions"=hex:\
+  07,01,03,06,0f,2c,2e,2f
+"T2"=dword:000093a8
+"T1"=dword:00005460
+"Lease"=dword:0000a8c0
+"LeaseObtainedHigh"=dword:01d5f1ca
+"LeaseObtainedLow"=dword:a880d180
+"DhcpWINS"=hex(7):\
+  00,00
+"DhcpDNS"=hex(7):\
+  31,00,39,00,32,00,2e,00,31,00,36,00,38,00,2e,00,31,00,31,00,2e,00,31,00,00,\
+  00,00,00
+"DhcpDefaultGateway"="192.168.11.1"
+"DhcpServer"="192.168.11.1"
+"DhcpSubnetMask"="255.255.255.0"
+"DhcpIPAddress"="192.168.11.227"
+"AutoCfg"=dword:00000001
+"EnableDHCP"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\Tcpip]
+
+[HKEY_LOCAL_MACHINE\Comm\Tcpip\Parms]
+"DNSDomain"="lan"
+"IpEnableRouter"=dword:00000000
+"TcpWindowSize"=dword:00008000
+"EnableDHCP"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac]
+"DisplayName"="AsyncMac NDISWAN Miniport"
+"Group"="NDIS"
+"ImagePath"="AsyncMac.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac\Linkage]
+"Route"=hex(7):\
+  41,00,73,00,79,00,6e,00,63,00,4d,00,61,00,63,00,31,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac1]
+"DisplayName"="AsyncMac NDISWAN Miniport"
+"Group"="NDIS"
+
+[HKEY_LOCAL_MACHINE\Comm\AsyncMac1\Parms]
+"BusNumber"=dword:00000000
+"BusType"=dword:00000000
+"DisablePowerManagement"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\PPPOE]
+"DisplayName"="Microsoft PPPoE driver"
+"Group"="NDIS"
+"ImagePath"="pppoe.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\PPPOE\Linkage]
+"Route"=hex(7):\
+  50,00,50,00,50,00,4f,00,45,00,31,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Comm\PPPOE1]
+"DisplayName"="Microsoft PPPoE driver"
+"Group"="NDIS"
+
+[HKEY_LOCAL_MACHINE\Comm\PPPOE1\Parms]
+"BusNumber"=dword:00000000
+"BusType"=dword:00000000
+"DisablePowerManagement"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\SecurityProviders]
+"Providers"="schannel.dll, ntlmssp.dll, kerberos.dll, spnego.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\SecurityProviders\SCHANNEL]
+"ClientCacheTime"=dword:005b8d80
+
+[HKEY_LOCAL_MACHINE\Comm\Security]
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto]
+"Seed"=hex:\
+  f0,0b,96,60,52,41,07,40,0a,03,6a,7c,bb,95,6d,34,2a,8a,7f,41
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults]
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider]
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider\Microsoft Base Cryptographic Provider v1.0]
+"Image Path"="\\Windows\\rsaenh.dll"
+"Type"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider\Microsoft Enhanced Cryptographic Provider v1.0]
+"Image Path"="\\Windows\\rsaenh.dll"
+"Type"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider Types]
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\Defaults\Provider Types\Type 001]
+"Name"="Microsoft Enhanced Cryptographic Provider v1.0"
+
+[HKEY_LOCAL_MACHINE\Comm\Security\Crypto\UI]
+"Dll"="\\Windows\\cplmain.cpl"
+
+[HKEY_LOCAL_MACHINE\Comm\Redir]
+"RegisterFSRoot"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\Cxport]
+"NoIdleTimerReset"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Comm\SMSC100FD]
+"DisplayName"="SMSC100FD Ethernet Driver"
+"Group"="NDIS"
+"ImagePath"="Smsc100Fd.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\SMSC100FD\Linkage]
+"Route"=hex(7):\
+  53,00,4d,00,53,00,43,00,31,00,30,00,30,00,46,00,44,00,31,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Comm\SMSC100FD1]
+"DisplayName"="SMSC100FD Ethernet Driver"
+"Group"="NDIS"
+"ImagePath"="Smsc100Fd.dll"
+
+[HKEY_LOCAL_MACHINE\Comm\SMSC100FD1\Parms]
+"BusNumber"="SMSC100FD Ethernet Driver"
+"BusType"="NDIS"
+
+[HKEY_LOCAL_MACHINE\Comm\SMSC100FD1\Parms\TcpIp]
+"EnableDHCP"=dword:00000001
+"DefaultGateway"=hex(7):\
+  30,00,2e,00,30,00,2e,00,30,00,2e,00,30,00,00,00,00,00
+"IpAddress"=hex(7):\
+  30,00,2e,00,30,00,2e,00,30,00,2e,00,30,00,00,00,00,00
+"Subnetmask"=hex(7):\
+  30,00,2e,00,30,00,2e,00,30,00,2e,00,30,00,00,00,00,00
+"WINS"=hex(7):\
+  00,00,00,00
+"DNS"=hex(7):\
+  00,00,00,00
+"Bind"=hex(7):\
+  53,00,4d,00,53,00,43,00,31,00,30,00,30,00,46,00,44,00,31,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\ExtModems]
+
+[HKEY_LOCAL_MACHINE\ExtModems\HayesCompat]
+"Port"="COM5:"
+"DeviceType"=dword:00000001
+"FriendlyName"="Hayse Compatible on COM5:"
+
+[HKEY_LOCAL_MACHINE\Printers]
+
+[HKEY_LOCAL_MACHINE\Printers\Ports]
+"Port1"="COM1: 9600"
+"Port2"="COM1: 57600"
+"Port3"="IRDA"
+"Port4"="NET0:"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Premier Election Solutions]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Premier Election Solutions\BallotStation 4.7]
+"Locale"=dword:00000409
+"CardCOMPort"="COM4:"
+"MachineSN"=dword:00048479
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\International]
+"LCID"=dword:00000409
+"ACP"=dword:000004e4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Terminal Server Client]
+"CEConfig"="Maxall"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Clock]
+"HomeDST"=dword:00000000
+"AutoDST"=dword:00000000
+@=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Pim]
+"Version"="3.1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Apps]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Apps\Microsoft Application Installer]
+"fAskOptions"=dword:00000000
+"fAskDest"=dword:00000001
+"nDynamicDelete"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Starlite]
+
+[HKEY_LOCAL_MACHINE\Starlite\Installer]
+
+[HKEY_LOCAL_MACHINE\Starlite\Installer\Assemblies]
+
+[HKEY_LOCAL_MACHINE\Starlite\Installer\Assemblies\Global]
+"Microsoft.VisualBasic, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,56,00,69,00,\
+  73,00,75,00,61,00,6c,00,42,00,61,00,73,00,69,00,63,00,5f,00,76,00,37,00,5f,\
+  00,30,00,5f,00,33,00,33,00,30,00,30,00,5f,00,30,00,5f,00,63,00,6e,00,65,00,\
+  75,00,74,00,72,00,61,00,6c,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00,4d,\
+  00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,56,00,69,00,73,00,\
+  75,00,61,00,6c,00,42,00,61,00,73,00,69,00,63,00,2e,00,64,00,6c,00,6c,00,00,\
+  00,00,00
+"System.Text.RegularExpressions, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,54,00,65,00,78,00,74,00,2e,00,\
+  52,00,65,00,67,00,75,00,6c,00,61,00,72,00,45,00,78,00,70,00,72,00,65,00,73,\
+  00,73,00,69,00,6f,00,6e,00,73,00,5f,00,76,00,31,00,5f,00,30,00,5f,00,33,00,\
+  33,00,30,00,30,00,5f,00,30,00,5f,00,63,00,6e,00,65,00,75,00,74,00,72,00,61,\
+  00,6c,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00,53,00,79,00,73,00,74,00,\
+  65,00,6d,00,2e,00,54,00,65,00,78,00,74,00,2e,00,52,00,65,00,67,00,75,00,6c,\
+  00,61,00,72,00,45,00,78,00,70,00,72,00,65,00,73,00,73,00,69,00,6f,00,6e,00,\
+  73,00,2e,00,64,00,6c,00,6c,00,00,00,00,00
+"System.Data, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,44,00,61,00,74,00,61,00,5f,00,\
+  76,00,31,00,5f,00,30,00,5f,00,33,00,33,00,30,00,30,00,5f,00,30,00,5f,00,63,\
+  00,6e,00,65,00,75,00,74,00,72,00,61,00,6c,00,5f,00,31,00,2e,00,64,00,6c,00,\
+  6c,00,00,00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,44,00,61,00,74,00,61,\
+  00,2e,00,64,00,6c,00,6c,00,00,00,00,00
+"System.Web.Services, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,57,00,65,00,62,00,2e,00,53,00,\
+  65,00,72,00,76,00,69,00,63,00,65,00,73,00,5f,00,76,00,31,00,5f,00,30,00,5f,\
+  00,33,00,33,00,30,00,30,00,5f,00,30,00,5f,00,63,00,6e,00,65,00,75,00,74,00,\
+  72,00,61,00,6c,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00,53,00,79,00,73,\
+  00,74,00,65,00,6d,00,2e,00,57,00,65,00,62,00,2e,00,53,00,65,00,72,00,76,00,\
+  69,00,63,00,65,00,73,00,2e,00,64,00,6c,00,6c,00,00,00,00,00
+"System.Net.IrDA, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,4e,00,65,00,74,00,2e,00,49,00,\
+  72,00,44,00,41,00,5f,00,76,00,31,00,5f,00,30,00,5f,00,33,00,33,00,30,00,30,\
+  00,5f,00,30,00,5f,00,63,00,6e,00,65,00,75,00,74,00,72,00,61,00,6c,00,5f,00,\
+  31,00,2e,00,64,00,6c,00,6c,00,00,00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,\
+  00,4e,00,65,00,74,00,2e,00,49,00,72,00,44,00,41,00,2e,00,64,00,6c,00,6c,00,\
+  00,00,00,00
+"System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,57,00,69,00,6e,00,64,00,6f,00,\
+  77,00,73,00,2e,00,46,00,6f,00,72,00,6d,00,73,00,5f,00,76,00,31,00,5f,00,30,\
+  00,5f,00,33,00,33,00,30,00,30,00,5f,00,30,00,5f,00,63,00,6e,00,65,00,75,00,\
+  74,00,72,00,61,00,6c,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00,53,00,79,\
+  00,73,00,74,00,65,00,6d,00,2e,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,\
+  2e,00,46,00,6f,00,72,00,6d,00,73,00,2e,00,64,00,6c,00,6c,00,00,00,00,00
+"System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,44,00,72,00,61,00,77,00,69,00,\
+  6e,00,67,00,5f,00,76,00,31,00,5f,00,30,00,5f,00,33,00,33,00,30,00,30,00,5f,\
+  00,30,00,5f,00,63,00,6e,00,65,00,75,00,74,00,72,00,61,00,6c,00,5f,00,31,00,\
+  2e,00,64,00,6c,00,6c,00,00,00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,44,\
+  00,72,00,61,00,77,00,69,00,6e,00,67,00,2e,00,64,00,6c,00,6c,00,00,00,00,00
+"System.Xml, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,58,00,6d,00,6c,00,5f,00,76,00,\
+  31,00,5f,00,30,00,5f,00,33,00,33,00,30,00,30,00,5f,00,30,00,5f,00,63,00,6e,\
+  00,65,00,75,00,74,00,72,00,61,00,6c,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,\
+  00,00,53,00,79,00,73,00,74,00,65,00,6d,00,2e,00,58,00,6d,00,6c,00,2e,00,64,\
+  00,6c,00,6c,00,00,00,00,00
+"System, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,53,00,79,00,73,00,74,00,65,00,6d,00,5f,00,76,00,31,00,5f,00,30,00,5f,00,\
+  33,00,33,00,30,00,30,00,5f,00,30,00,5f,00,63,00,6e,00,65,00,75,00,74,00,72,\
+  00,61,00,6c,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00,53,00,79,00,73,00,\
+  74,00,65,00,6d,00,2e,00,64,00,6c,00,6c,00,00,00,00,00
+"mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"=hex(7):\
+  5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,5c,00,47,00,41,00,43,00,5f,\
+  00,6d,00,73,00,63,00,6f,00,72,00,6c,00,69,00,62,00,5f,00,76,00,31,00,5f,00,\
+  30,00,5f,00,33,00,33,00,30,00,30,00,5f,00,30,00,5f,00,63,00,6e,00,65,00,75,\
+  00,74,00,72,00,61,00,6c,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00,6d,00,\
+  73,00,63,00,6f,00,72,00,6c,00,69,00,62,00,2e,00,64,00,6c,00,6c,00,00,00,00,\
+  00
+
+[HKEY_LOCAL_MACHINE\Explorer]
+"ShowExt"=dword:00000000
+"UseCompatibleBGImage"=dword:00000001
+"ExpandControlPanel"=dword:00000000
+"Suspend"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Explorer\RunHistory]
+@=""
+
+[HKEY_LOCAL_MACHINE\Explorer\AddressHistory]
+@=""
+
+[HKEY_LOCAL_MACHINE\Explorer\Desktop]
+"{000214A1-0000-0000-C000-000000000046}"="Recycle Bin"
+"{000214A0-0000-0000-C000-000000000046}"="My Computer"
+
+[HKEY_LOCAL_MACHINE\Explorer\MyComputer]
+"{000214A4-0000-0000-C000-000000000046}"="Databases"
+
+[HKEY_LOCAL_MACHINE\Explorer\Database]
+"ContactsDatabase"="Contacts Database"
+"TasksDatabase"="Tasks Database"
+"AppointmentsDatabase"="Appointments Database"
+
+[HKEY_LOCAL_MACHINE\Snd]
+
+[HKEY_LOCAL_MACHINE\Snd\Scheme]
+".DefaultSounds"="Windows CE Default"
+".AllSounds"="All Sounds"
+".NoSounds"="No Sounds"
+
+[HKEY_LOCAL_MACHINE\Snd\Event]
+".Scheme"=".DefaultSounds"
+"EventMask"=dword:00ffffff
+"EventCache"=dword:00000300
+".NoSounds"=hex(7):\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+".DefaultSounds"=hex(7):\
+  41,00,73,00,74,00,65,00,72,00,69,00,73,00,6b,00,00,00,00,00,63,00,72,00,69,\
+  00,74,00,69,00,63,00,61,00,6c,00,00,00,64,00,65,00,66,00,61,00,75,00,6c,00,\
+  74,00,00,00,00,00,65,00,78,00,63,00,6c,00,61,00,6d,00,00,00,69,00,6e,00,66,\
+  00,62,00,65,00,67,00,00,00,69,00,6e,00,66,00,65,00,6e,00,64,00,00,00,69,00,\
+  6e,00,66,00,69,00,6e,00,74,00,72,00,00,00,00,00,00,00,00,00,71,00,75,00,65,\
+  00,73,00,74,00,69,00,6f,00,6e,00,00,00,49,00,6e,00,66,00,62,00,65,00,67,00,\
+  00,00,49,00,6e,00,66,00,65,00,6e,00,64,00,00,00,49,00,6e,00,66,00,69,00,6e,\
+  00,74,00,72,00,00,00,73,00,74,00,61,00,72,00,74,00,75,00,70,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00
+".AllSounds"=hex(7):\
+  41,00,73,00,74,00,65,00,72,00,69,00,73,00,6b,00,00,00,43,00,6c,00,6f,00,73,\
+  00,65,00,00,00,63,00,72,00,69,00,74,00,69,00,63,00,61,00,6c,00,00,00,64,00,\
+  65,00,66,00,61,00,75,00,6c,00,74,00,00,00,45,00,6d,00,70,00,74,00,79,00,00,\
+  00,65,00,78,00,63,00,6c,00,61,00,6d,00,00,00,69,00,6e,00,66,00,62,00,65,00,\
+  67,00,00,00,69,00,6e,00,66,00,65,00,6e,00,64,00,00,00,69,00,6e,00,66,00,69,\
+  00,6e,00,74,00,72,00,00,00,4d,00,65,00,6e,00,75,00,50,00,6f,00,70,00,00,00,\
+  4d,00,65,00,6e,00,75,00,53,00,65,00,6c,00,00,00,4f,00,70,00,65,00,6e,00,50,\
+  00,72,00,6f,00,67,00,00,00,71,00,75,00,65,00,73,00,74,00,69,00,6f,00,6e,00,\
+  00,00,49,00,6e,00,66,00,62,00,65,00,67,00,00,00,49,00,6e,00,66,00,65,00,6e,\
+  00,64,00,00,00,49,00,6e,00,66,00,69,00,6e,00,74,00,72,00,00,00,73,00,74,00,\
+  61,00,72,00,74,00,75,00,70,00,00,00,57,00,69,00,6e,00,64,00,4d,00,61,00,78,\
+  00,00,00,57,00,69,00,6e,00,64,00,4d,00,69,00,6e,00,00,00,52,00,65,00,63,00,\
+  53,00,74,00,61,00,72,00,74,00,00,00,52,00,65,00,63,00,45,00,6e,00,64,00,00,\
+  00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones]
+@="Pacific Standard Time"
+
+[HKEY_LOCAL_MACHINE\Time Zones\Dateline Standard Time]
+"Display"="(GMT-12:00) International Date Line West"
+"Dlt"="Dateline Daylight Time"
+"TZI"=hex:\
+  d0,02,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Samoa Standard Time]
+"Display"="(GMT-11:00) Midway Island, Samoa"
+"Dlt"="Samoa Daylight Time"
+"TZI"=hex:\
+  94,02,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Hawaiian Standard Time]
+"Display"="(GMT-10:00) Hawaii"
+"Dlt"="Hawaiian Daylight Time"
+"TZI"=hex:\
+  58,02,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Alaskan Standard Time]
+"Display"="(GMT-09:00) Alaska"
+"Dlt"="Alaskan Daylight Time"
+"TZI"=hex:\
+  1c,02,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0b,00,00,00,01,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,02,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Pacific Standard Time]
+"Display"="(GMT-08:00) Pacific Time (US & Canada)"
+"Dlt"="Pacific Daylight Time"
+"TZI"=hex:\
+  e0,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0b,00,00,00,01,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,02,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Mountain Standard Time]
+"Display"="(GMT-07:00) Mountain Time (US & Canada)"
+"Dlt"="Mountain Daylight Time"
+"TZI"=hex:\
+  a4,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0b,00,00,00,01,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,02,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Mexico Standard Time 2]
+"Display"="(GMT-07:00) Chihuahua, La Paz, Mazatlan"
+"Dlt"="Mexico Daylight Time 2"
+"TZI"=hex:\
+  a4,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,04,00,00,00,01,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\US Mountain Standard Time]
+"Display"="(GMT-07:00) Arizona"
+"Dlt"="US Mountain Daylight Time"
+"TZI"=hex:\
+  a4,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Central Standard Time]
+"Display"="(GMT-06:00) Central Time (US & Canada)"
+"Dlt"="Central Daylight Time"
+"TZI"=hex:\
+  68,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0b,00,00,00,01,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,02,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Canada Central Standard Time]
+"Display"="(GMT-06:00) Saskatchewan"
+"Dlt"="Canada Central Daylight Time"
+"TZI"=hex:\
+  68,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Mexico Standard Time]
+"Display"="(GMT-06:00) Guadalajara, Mexico City, Monterrey"
+"Dlt"="Mexico Daylight Time"
+"TZI"=hex:\
+  68,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,04,00,00,00,01,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Central America Standard Time]
+"Display"="(GMT-06:00) Central America"
+"Dlt"="Central America Daylight Time"
+"TZI"=hex:\
+  68,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Eastern Standard Time]
+"Display"="(GMT-05:00) Eastern Time (US & Canada)"
+"Dlt"="Eastern Daylight Time"
+"TZI"=hex:\
+  2c,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0b,00,00,00,01,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,02,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\US Eastern Standard Time]
+"Display"="(GMT-05:00) Indiana (East)"
+"Dlt"="US Eastern Daylight Time"
+"TZI"=hex:\
+  2c,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\SA Pacific Standard Time]
+"Display"="(GMT-05:00) Bogota, Lima, Quito"
+"Dlt"="SA Pacific Daylight Time"
+"TZI"=hex:\
+  2c,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Atlantic Standard Time]
+"Display"="(GMT-04:00) Atlantic Time (Canada)"
+"Dlt"="Atlantic Daylight Time"
+"TZI"=hex:\
+  f0,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0b,00,00,00,01,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,02,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\SA Western Standard Time]
+"Display"="(GMT-04:00) Caracas, La Paz"
+"Dlt"="SA Western Daylight Time"
+"TZI"=hex:\
+  f0,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Pacific SA Standard Time]
+"Display"="(GMT-04:00) Santiago"
+"Dlt"="Pacific SA Daylight Time"
+"TZI"=hex:\
+  f0,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,03,00,06,00,02,00,00,00,00,00,00,\
+  00,00,00,00,00,0a,00,06,00,02,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Newfoundland Standard Time]
+"Display"="(GMT-03:30) Newfoundland"
+"Dlt"="Newfoundland Daylight Time"
+"TZI"=hex:\
+  d2,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0b,00,00,00,01,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,02,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\E. South America Standard Time]
+"Display"="(GMT-03:00) Brasilia"
+"Dlt"="E. South America Daylight Time"
+"TZI"=hex:\
+  b4,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,02,00,00,00,02,00,02,00,00,00,00,\
+  00,00,00,00,00,0a,00,00,00,03,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\SA Eastern Standard Time]
+"Display"="(GMT-03:00) Buenos Aires, Georgetown"
+"Dlt"="SA Eastern Daylight Time"
+"TZI"=hex:\
+  b4,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Greenland Standard Time]
+"Display"="(GMT-03:00) Greenland"
+"Dlt"="Greenland Daylight Time"
+"TZI"=hex:\
+  b4,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,04,00,00,00,01,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Mid-Atlantic Standard Time]
+"Display"="(GMT-02:00) Mid-Atlantic"
+"Dlt"="Mid-Atlantic Daylight Time"
+"TZI"=hex:\
+  78,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,09,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Azores Standard Time]
+"Display"="(GMT-01:00) Azores"
+"Dlt"="Azores Daylight Time"
+"TZI"=hex:\
+  3c,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Cape Verde Standard Time]
+"Display"="(GMT-01:00) Cape Verde Is."
+"Dlt"="Cape Verde Daylight Time"
+"TZI"=hex:\
+  3c,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\GMT Standard Time]
+"Display"="(GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London"
+"Dlt"="GMT Daylight Time"
+"TZI"=hex:\
+  00,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,01,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Greenwich Standard Time]
+"Display"="(GMT) Casablanca, Monrovia"
+"Dlt"="Greenwich Daylight Time"
+"TZI"=hex:\
+  00,00,00,00,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Central Europe Standard Time]
+"Display"="(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague"
+"Dlt"="Central Europe Daylight Time"
+"TZI"=hex:\
+  c4,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Central European Standard Time]
+"Display"="(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb"
+"Dlt"="Central European Daylight Time"
+"TZI"=hex:\
+  c4,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Romance Standard Time]
+"Display"="(GMT+01:00) Brussels, Copenhagen, Madrid, Paris"
+"Dlt"="Romance Daylight Time"
+"TZI"=hex:\
+  c4,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\W. Europe Standard Time]
+"Display"="(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+"Dlt"="W. Europe Daylight Time"
+"TZI"=hex:\
+  c4,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\W. Central Africa Standard Time]
+"Display"="(GMT+01:00) West Central Africa"
+"Dlt"="W. Central Africa Daylight Time"
+"TZI"=hex:\
+  c4,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\E. Europe Standard Time]
+"Display"="(GMT+02:00) Bucharest"
+"Dlt"="E. Europe Daylight Time"
+"TZI"=hex:\
+  88,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,01,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Egypt Standard Time]
+"Display"="(GMT+02:00) Cairo"
+"Dlt"="Egypt Daylight Time"
+"TZI"=hex:\
+  88,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,09,00,03,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,05,00,05,00,01,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\FLE Standard Time]
+"Display"="(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
+"Dlt"="FLE Daylight Time"
+"TZI"=hex:\
+  88,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,04,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,03,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\GTB Standard Time]
+"Display"="(GMT+02:00) Athens, Istanbul, Minsk"
+"Dlt"="GTB Daylight Time"
+"TZI"=hex:\
+  88,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Jerusalem Standard Time]
+"Display"="(GMT+02:00) Jerusalem"
+"Dlt"="Jerusalem Daylight Time"
+"TZI"=hex:\
+  88,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\South Africa Standard Time]
+"Display"="(GMT+02:00) Harare, Pretoria"
+"Dlt"="South Africa Daylight Time"
+"TZI"=hex:\
+  88,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Russian Standard Time]
+"Display"="(GMT+03:00) Moscow, St. Petersburg, Volgograd"
+"Dlt"="Russian Daylight Time"
+"TZI"=hex:\
+  4c,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Arab Standard Time]
+"Display"="(GMT+03:00) Kuwait, Riyadh"
+"Dlt"="Arab Daylight Time"
+"TZI"=hex:\
+  4c,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\E. Africa Standard Time]
+"Display"="(GMT+03:00) Nairobi"
+"Dlt"="E. Africa Daylight Time"
+"TZI"=hex:\
+  4c,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Arabic Standard Time]
+"Display"="(GMT+03:00) Baghdad"
+"Dlt"="Arabic Daylight Time"
+"TZI"=hex:\
+  4c,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,01,00,04,00,00,00,00,\
+  00,00,00,00,00,04,00,00,00,01,00,03,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Iran Standard Time]
+"Display"="(GMT+03:30) Tehran"
+"Dlt"="Iran Daylight Time"
+"TZI"=hex:\
+  2e,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,09,00,02,00,04,00,02,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,01,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Arabian Standard Time]
+"Display"="(GMT+04:00) Abu Dhabi, Muscat"
+"Dlt"="Arabian Daylight Time"
+"TZI"=hex:\
+  10,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Caucasus Standard Time]
+"Display"="(GMT+04:00) Baku, Tbilisi, Yerevan"
+"Dlt"="Caucasus Daylight Time"
+"TZI"=hex:\
+  10,ff,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Afghanistan Standard Time]
+"Display"="(GMT+04:30) Kabul"
+"Dlt"="Afghanistan Daylight Time"
+"TZI"=hex:\
+  f2,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Ekaterinburg Standard Time]
+"Display"="(GMT+05:00) Ekaterinburg"
+"Dlt"="Ekaterinburg Daylight Time"
+"TZI"=hex:\
+  d4,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\West Asia Standard Time]
+"Display"="(GMT+05:00) Islamabad, Karachi, Tashkent"
+"Dlt"="West Asia Daylight Time"
+"TZI"=hex:\
+  d4,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\India Standard Time]
+"Display"="(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi"
+"Dlt"="India Daylight Time"
+"TZI"=hex:\
+  b6,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Nepal Standard Time]
+"Display"="(GMT+05:45) Kathmandu"
+"Dlt"="Nepal Daylight Time"
+"TZI"=hex:\
+  a7,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Central Asia Standard Time]
+"Display"="(GMT+06:00) Astana, Dhaka"
+"Dlt"="Central Asia Daylight Time"
+"TZI"=hex:\
+  98,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Sri Lanka Standard Time]
+"Display"="(GMT+06:00) Sri Jayawardenepura"
+"Dlt"="Sri Lanka Daylight Time"
+"TZI"=hex:\
+  98,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\N. Central Asia Standard Time]
+"Display"="(GMT+06:00) Almaty, Novosibirsk"
+"Dlt"="N. Central Asia Daylight Time"
+"TZI"=hex:\
+  98,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Myanmar Standard Time]
+"Display"="(GMT+06:30) Rangoon"
+"Dlt"="Myanmar Daylight Time"
+"TZI"=hex:\
+  7a,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\SE Asia Standard Time]
+"Display"="(GMT+07:00) Bangkok, Hanoi, Jakarta"
+"Dlt"="SE Asia Daylight Time"
+"TZI"=hex:\
+  5c,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\North Asia Standard Time]
+"Display"="(GMT+07:00) Krasnoyarsk"
+"Dlt"="North Asia Daylight Time"
+"TZI"=hex:\
+  5c,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\China Standard Time]
+"Display"="(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi"
+"Dlt"="China Daylight Time"
+"TZI"=hex:\
+  20,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Malay Peninsula Standard Time]
+"Display"="(GMT+08:00) Kuala Lumpur, Singapore"
+"Dlt"="Malay Peninsula Daylight Time"
+"TZI"=hex:\
+  20,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Taipei Standard Time]
+"Display"="(GMT+08:00) Taipei"
+"Dlt"="Taipei Daylight Time"
+"TZI"=hex:\
+  20,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\W. Australia Standard Time]
+"Display"="(GMT+08:00) Perth"
+"Dlt"="W. Australia Daylight Time"
+"TZI"=hex:\
+  20,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,03,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,0a,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\North Asia East Standard Time]
+"Display"="(GMT+08:00) Irkutsk, Ulaan Bataar"
+"Dlt"="North Asia East Daylight Time"
+"TZI"=hex:\
+  20,fe,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Korea Standard Time]
+"Display"="(GMT+09:00) Seoul"
+"Dlt"="Korea Daylight Time"
+"TZI"=hex:\
+  e4,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Tokyo Standard Time]
+"Display"="(GMT+09:00) Osaka, Sapporo, Tokyo"
+"Dlt"="Tokyo Daylight Time"
+"TZI"=hex:\
+  e4,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Yakutsk Standard Time]
+"Display"="(GMT+09:00) Yakutsk"
+"Dlt"="Yakutsk Daylight Time"
+"TZI"=hex:\
+  e4,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\AUS Central Standard Time]
+"Display"="(GMT+09:30) Darwin"
+"Dlt"="AUS Central Daylight Time"
+"TZI"=hex:\
+  c6,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Cen. Australia Standard Time]
+"Display"="(GMT+09:30) Adelaide"
+"Dlt"="Cen. Australia Daylight Time"
+"TZI"=hex:\
+  c6,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,03,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,0a,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\AUS Eastern Standard Time]
+"Display"="(GMT+10:00) Canberra, Melbourne, Sydney"
+"Dlt"="AUS Eastern Daylight Time"
+"TZI"=hex:\
+  a8,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,03,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,0a,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\E. Australia Standard Time]
+"Display"="(GMT+10:00) Brisbane"
+"Dlt"="E. Australia Daylight Time"
+"TZI"=hex:\
+  a8,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Tasmania Standard Time]
+"Display"="(GMT+10:00) Hobart"
+"Dlt"="Tasmania Daylight Time"
+"TZI"=hex:\
+  a8,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,03,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,0a,00,00,00,01,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Vladivostok Standard Time]
+"Display"="(GMT+10:00) Vladivostok"
+"Dlt"="Vladivostok Daylight Time"
+"TZI"=hex:\
+  a8,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,03,00,00,00,00,\
+  00,00,00,00,00,03,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\West Pacific Standard Time]
+"Display"="(GMT+10:00) Guam, Port Moresby"
+"Dlt"="West Pacific Daylight Time"
+"TZI"=hex:\
+  a8,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Central Pacific Standard Time]
+"Display"="(GMT+11:00) Magadan, Solomon Is., New Caledonia"
+"Dlt"="Central Pacific Daylight Time"
+"TZI"=hex:\
+  6c,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Fiji Standard Time]
+"Display"="(GMT+12:00) Fiji, Kamchatka, Marshall Is."
+"Dlt"="Fiji Daylight Time"
+"TZI"=hex:\
+  30,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\New Zealand Standard Time]
+"Display"="(GMT+12:00) Auckland, Wellington"
+"Dlt"="New Zealand Daylight Time"
+"TZI"=hex:\
+  30,fd,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,04,00,00,00,01,00,03,00,00,00,00,\
+  00,00,00,00,00,09,00,00,00,05,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Tonga Standard Time]
+"Display"="(GMT+13:00) Nuku'alofa"
+"Dlt"="Tonga Daylight Time"
+"TZI"=hex:\
+  f4,fc,ff,ff,00,00,00,00,c4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Time Zones\Pacific Standard Time (Mexico)]
+"Display"="(GMT-08:00) Tijuana, Baja California"
+"Dlt"="Pacific Daylight Time (Mexico)"
+"TZI"=hex:\
+  e0,01,00,00,00,00,00,00,c4,ff,ff,ff,00,00,0a,00,00,00,05,00,02,00,00,00,00,\
+  00,00,00,00,00,04,00,00,00,01,00,02,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\Ident]
+"OrigName"="WindowsCE"
+"Name"="WindowsCE"
+"Desc"="WindowsCE Device"
+
+[HKEY_LOCAL_MACHINE\Windows CE Tools]
+"Platform"="{165723EA-ECA8-4FD1-B2F4-85F4D51F05B8}"
+
+[HKEY_LOCAL_MACHINE\DEBUGZONES]
+"Serial"=dword:00000000
+"UPNPSVC"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Platform]
+"Name"="Microsoft Windows CE Hardware Reference Platform"
+"Type"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\Loader]
+"SystemPath"=hex(7):\
+  5c,00,46,00,46,00,58,00,5c,00,62,00,69,00,6e,00,5c,00,00,00,5c,00,53,00,74,\
+  00,6f,00,72,00,61,00,67,00,65,00,20,00,43,00,61,00,72,00,64,00,5c,00,62,00,\
+  69,00,6e,00,5c,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\HARDWARE]
+
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP]
+
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\KEYBD]
+"DriverName"="keybddr.dll"
+
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\TOUCH]
+"OffsetY"=dword:00000064
+"Dy"=dword:00000064
+"ScrDy"=dword:00000064
+"OffsetX"=dword:00000064
+"Dx"=dword:00000064
+"ScrDx"=dword:00000064
+"CalibrationData"="2057,2015 756,2952 765,1087 3347,1116 3341,2964 "
+"DriverName"="Touch.Dll"
+"ComPort"="COM2:"
+"Order"=dword:00000002
+"TrackingCursor"=dword:00000001
+"Priority256"=dword:00000109
+"HighPriority256"=dword:00000109
+"MaxCalError"=dword:0000000a
+
+[HKEY_USERS]
