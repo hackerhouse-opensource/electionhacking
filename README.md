@@ -39,3 +39,7 @@ folder contents to the compactflash disk. The following utilities are included:
 * nc.exe            - netcat
 * nesCE.exe         - NES emulator
 * ramfiles.exe      - ram filesystem
+
+# License
+
+These files are available under the 3-clause BSD license.
